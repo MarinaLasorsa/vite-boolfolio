@@ -18,7 +18,6 @@ export default {
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
   <AppMain />
 </template>
 
