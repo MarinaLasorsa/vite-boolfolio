@@ -20,7 +20,8 @@
                                     {{ technology.name }}</li>
                             </ul>
                             <p class="card-text">{{ project.description }}</p>
-
+                            <router-link :to="{ name: 'projects.show', params: { slug: project.slug } }"
+                                class="btn btn-link">Read More</router-link>
                         </div>
                     </div>
                 </li>
